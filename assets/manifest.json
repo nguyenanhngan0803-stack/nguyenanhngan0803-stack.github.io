@@ -1,0 +1,162 @@
+[
+  {
+    "file": "hr-erd.png",
+    "source_doc": "2321004029_NguyenThiAnhNgan_2531101068803(1).docx",
+    "source_media": "word/media/image35.jpeg",
+    "caption": "Hình 3-12 ERD",
+    "size": [
+      1343,
+      640
+    ]
+  },
+  {
+    "file": "hr-sql-view.png",
+    "source_doc": "2321004029_NguyenThiAnhNgan_2531101068803(1).docx",
+    "source_media": "word/media/image86.png",
+    "caption": "Hình 4-25 Hiện thực Vw_DanhBa_NhanVien_CongKhai",
+    "size": [
+      943,
+      665
+    ]
+  },
+  {
+    "file": "hr-sql-procedure.png",
+    "source_doc": "2321004029_NguyenThiAnhNgan_2531101068803(1).docx",
+    "source_media": "word/media/image99.png",
+    "caption": "Hình 4-38 Hiện thực usp_TaoBangLuongThang",
+    "size": [
+      970,
+      672
+    ]
+  },
+  {
+    "file": "hr-sql-trigger.png",
+    "source_doc": "2321004029_NguyenThiAnhNgan_2531101068803(1).docx",
+    "source_media": "word/media/image124.png",
+    "caption": "Hình 4-63 Hiện thực TG_GhiLog_HeSoLuong_Full",
+    "size": [
+      833,
+      301
+    ]
+  },
+  {
+    "file": "hr-powerbi-dashboard.png",
+    "source_doc": "2321004029_NguyenThiAnhNgan_2531101068803(1).docx",
+    "source_media": "word/media/image199.png",
+    "caption": "Hình 4-138 Báo cáo tổng quan nhân sự - CellphoneS",
+    "size": [
+      1448,
+      810
+    ]
+  },
+  {
+    "file": "hr-payroll-dashboard.png",
+    "source_doc": "2321004029_NguyenThiAnhNgan_2531101068803(1).docx",
+    "source_media": "word/media/image201.png",
+    "caption": "Hình 4-140 Báo cáo chi phí lương và phúc lợi CellphoneS",
+    "size": [
+      1431,
+      803
+    ]
+  },
+  {
+    "file": "retail-segmentation.png",
+    "source_doc": "2026_HK1_DM_2321004029_NguyenThiAnhNgan_DoAn(2).docx",
+    "source_media": "word/media/image24.png",
+    "caption": "Hình 3-13 Biểu đồ 3D - Phân khúc khách hàng",
+    "size": [
+      784,
+      499
+    ]
+  },
+  {
+    "file": "retail-feature-importance.png",
+    "source_doc": "2026_HK1_DM_2321004029_NguyenThiAnhNgan_DoAn(2).docx",
+    "source_media": "word/media/image59.png",
+    "caption": "Hình 3-48 Biểu đồ độ quan trọng của đặc trưng trong mô hình",
+    "size": [
+      1116,
+      831
+    ]
+  },
+  {
+    "file": "retail-model-comparison.png",
+    "source_doc": "2026_HK1_DM_2321004029_NguyenThiAnhNgan_DoAn(2).docx",
+    "source_media": "word/media/image64.png",
+    "caption": "Hình 3-53 Biểu đồ so sánh hiệu năng của 4 mô hình hồi quy",
+    "size": [
+      1446,
+      509
+    ]
+  },
+  {
+    "file": "retail-model-result.png",
+    "source_doc": "2026_HK1_DM_2321004029_NguyenThiAnhNgan_DoAn(2).docx",
+    "source_media": "word/media/image64.png",
+    "caption": "Hình 3-53 Biểu đồ so sánh hiệu năng của 4 mô hình hồi quy",
+    "size": [
+      1446,
+      509
+    ]
+  },
+  {
+    "file": "retail-confusion-matrix.png",
+    "source_doc": "2026_HK1_DM_2321004029_NguyenThiAnhNgan_DoAn(2).docx",
+    "source_media": "word/media/image94.png",
+    "caption": "Hình 3-82 Ma trận nhầm lẫn Random Forest sau SMOTE và Threshold Tuning",
+    "size": [
+      465,
+      370
+    ]
+  },
+  {
+    "file": "retail-roc-curve.png",
+    "source_doc": "2026_HK1_DM_2321004029_NguyenThiAnhNgan_DoAn(2).docx",
+    "source_media": "word/media/image95.png",
+    "caption": "Hình 3-83 Đường cong ROC Random Forest sau SMOTE và Threshold Tuning",
+    "size": [
+      408,
+      363
+    ]
+  },
+  {
+    "file": "dss-dashboard.png",
+    "source_doc": "2321004029 NGUYENTHIANHNGAN XAYDUNGDSSCHOCONGTYCENLAND(1).docx",
+    "source_media": "word/media/image63.png",
+    "caption": "Hình 4-5 Trực quan hóa kết quả phân tích TH1",
+    "size": [
+      1269,
+      731
+    ]
+  },
+  {
+    "file": "dss-solver.png",
+    "source_doc": "2321004029 NGUYENTHIANHNGAN XAYDUNGDSSCHOCONGTYCENLAND(1).docx",
+    "source_media": "word/media/image26.png",
+    "caption": "Hình 3-11 Kết quả Solver TH1",
+    "size": [
+      667,
+      127
+    ]
+  },
+  {
+    "file": "dss-scenario.png",
+    "source_doc": "2321004029 NGUYENTHIANHNGAN XAYDUNGDSSCHOCONGTYCENLAND(1).docx",
+    "source_media": "word/media/image34.png",
+    "caption": "Hình 3-19 Kết quả Scenario Summary TH2",
+    "size": [
+      1141,
+      283
+    ]
+  },
+  {
+    "file": "dss-roi-channel.png",
+    "source_doc": "2321004029 NGUYENTHIANHNGAN XAYDUNGDSSCHOCONGTYCENLAND(1).docx",
+    "source_media": "word/media/image63.png",
+    "caption": "Hình 4-5 Trực quan hóa kết quả phân tích TH1",
+    "size": [
+      1269,
+      731
+    ]
+  }
+]
