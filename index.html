@@ -8,27 +8,35 @@
 
   <meta 
     name="description" 
-    content="Data Analyst Intern Portfolio - SQL, Python, Power BI, Machine Learning Fundamentals, Decision Support." 
+    content="Data Analyst Intern Portfolio of Nguyễn Thị Ánh Ngân - SQL, Python, Power BI, Machine Learning Fundamentals, Business Analytics, and Decision Support." 
   />
 
   <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
-  <!-- NAVBAR -->
+  <!-- ================= NAVBAR ================= -->
   <header class="navbar">
-    <div class="logo">Ánh Ngân</div>
+    <a href="#" class="logo">Ánh Ngân</a>
+
+    <input type="checkbox" id="menu-toggle" class="menu-toggle" />
+    <label for="menu-toggle" class="menu-icon">
+      <span></span>
+      <span></span>
+      <span></span>
+    </label>
 
     <nav class="nav-links">
       <a href="#about">About</a>
       <a href="#skills">Skills</a>
       <a href="#projects">Projects</a>
+      <a href="#evidence">Evidence</a>
       <a href="#fit">GoTymeX Fit</a>
       <a href="#contact">Contact</a>
     </nav>
   </header>
 
-  <!-- HERO -->
+  <!-- ================= HERO ================= -->
   <section class="hero">
     <div class="hero-content">
       <p class="eyebrow">Data Analyst Intern Portfolio</p>
@@ -40,196 +48,448 @@
       </h2>
 
       <p class="hero-desc">
-        Management Information Systems student with hands-on experience in SQL,
-        Python analytics, Power BI dashboards, machine learning fundamentals,
-        and decision-support projects. Interested in fintech, digital banking,
-        customer behavior, product analytics, payments, accounts, and risk.
+        Management Information Systems student with hands-on experience in SQL database systems,
+        Python analytics, Power BI dashboards, machine learning fundamentals, and decision-support
+        projects. Interested in fintech, digital banking, customer behavior, product analytics,
+        payments, accounts, and risk-related decision-making.
       </p>
 
       <div class="hero-buttons">
         <a href="#projects" class="btn primary">View Projects</a>
-        <a href="#" class="btn secondary">Download Resume</a>
+        <a href="assets/NguyenThiAnhNgan_DataAnalystIntern_CV.pdf" class="btn secondary" target="_blank">
+          Download Resume
+        </a>
       </div>
     </div>
 
-    <div class="hero-card">
-      <h3>Analytics Focus</h3>
+    <div class="hero-panel">
+      <div class="hero-panel-header">
+        <span>Portfolio Snapshot</span>
+        <span class="status-dot">Open to Internship</span>
+      </div>
 
       <div class="kpi-grid">
-        <div>
+        <div class="kpi-card">
           <span>SQL</span>
           <strong>Database</strong>
+          <small>Procedures • Views • Triggers</small>
         </div>
-        <div>
+
+        <div class="kpi-card">
           <span>Python</span>
           <strong>Analytics</strong>
+          <small>Pandas • EDA • ML</small>
         </div>
-        <div>
+
+        <div class="kpi-card">
           <span>Power BI</span>
           <strong>Dashboard</strong>
+          <small>KPI • Reporting</small>
         </div>
-        <div>
-          <span>ML</span>
-          <strong>Basics</strong>
+
+        <div class="kpi-card">
+          <span>DSS</span>
+          <strong>Decision</strong>
+          <small>Solver • Scenario</small>
         </div>
+      </div>
+
+      <div class="mini-chart">
+        <div style="height: 45%"></div>
+        <div style="height: 72%"></div>
+        <div style="height: 55%"></div>
+        <div style="height: 86%"></div>
+        <div style="height: 65%"></div>
+        <div style="height: 92%"></div>
       </div>
     </div>
   </section>
 
-  <!-- ABOUT -->
+  <!-- ================= ABOUT ================= -->
   <section id="about" class="section">
     <p class="section-label">About Me</p>
-    <h2>Data-minded, detail-oriented, and business-focused.</h2>
 
-    <p>
-      I am pursuing a Data Analyst Intern role where I can apply data cleaning,
-      SQL, Python, dashboarding, and business analysis to support data-driven
-      decisions. I enjoy breaking complex problems into smaller analytical
-      questions, validating assumptions with data, and translating findings into
-      practical recommendations.
-    </p>
+    <div class="section-heading">
+      <h2>Data-minded, detail-oriented, and business-focused.</h2>
+      <p>
+        I am pursuing a Data Analyst Intern role where I can apply data cleaning,
+        SQL, Python, dashboarding, and business analysis to support data-driven decisions.
+        I enjoy breaking complex problems into smaller analytical questions, validating
+        assumptions with data, and translating findings into practical recommendations.
+      </p>
+    </div>
+
+    <div class="about-grid">
+      <div class="about-card">
+        <h3>Analytical Mindset</h3>
+        <p>Break complex business questions into smaller data problems and let evidence guide conclusions.</p>
+      </div>
+
+      <div class="about-card">
+        <h3>Detail Orientation</h3>
+        <p>Clean, validate, and structure data carefully before presenting results or recommendations.</p>
+      </div>
+
+      <div class="about-card">
+        <h3>Business Communication</h3>
+        <p>Translate technical outputs into clear business insights that stakeholders can understand.</p>
+      </div>
+
+      <div class="about-card">
+        <h3>Growth Mindset</h3>
+        <p>Curious, open to feedback, and eager to learn complex domains such as banking, payments, and risk.</p>
+      </div>
+    </div>
   </section>
 
-  <!-- SKILLS -->
+  <!-- ================= SKILLS ================= -->
   <section id="skills" class="section">
     <p class="section-label">Core Skills</p>
-    <h2>Skills aligned with Data Analyst Intern requirements</h2>
+
+    <div class="section-heading">
+      <h2>Skills aligned with Data Analyst Intern requirements</h2>
+      <p>
+        My portfolio demonstrates a practical combination of SQL, Python, machine learning fundamentals,
+        BI dashboarding, and business decision support.
+      </p>
+    </div>
 
     <div class="skills-grid">
       <div class="skill-card">
+        <span class="skill-icon">PY</span>
         <h3>Python Analytics</h3>
         <p>Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn, EDA, Feature Engineering</p>
       </div>
 
       <div class="skill-card">
+        <span class="skill-icon">SQL</span>
         <h3>SQL & Database</h3>
         <p>SQL Server, T-SQL, Joins, Aggregations, CTEs, Procedures, Functions, Triggers, Views</p>
       </div>
 
       <div class="skill-card">
+        <span class="skill-icon">BI</span>
         <h3>BI & Reporting</h3>
         <p>Power BI, Excel, PivotTable, Dashboard Design, KPI Reporting, Data Storytelling</p>
       </div>
 
       <div class="skill-card">
+        <span class="skill-icon">ML</span>
+        <h3>Machine Learning Basics</h3>
+        <p>Clustering, Regression, Classification, Model Evaluation, Feature Importance</p>
+      </div>
+
+      <div class="skill-card">
+        <span class="skill-icon">DSS</span>
+        <h3>Decision Support</h3>
+        <p>Scenario Analysis, Solver, LINEST, Goal Seek, Data Table, Business Recommendation</p>
+      </div>
+
+      <div class="skill-card">
+        <span class="skill-icon">BA</span>
         <h3>Business Analytics</h3>
-        <p>Scenario Analysis, Solver, LINEST, Customer Segmentation, Decision Support</p>
+        <p>Customer Segmentation, Marketing Analytics, ROI Analysis, Budget Optimization</p>
       </div>
     </div>
   </section>
 
-  <!-- PROJECTS -->
+  <!-- ================= PROJECTS ================= -->
   <section id="projects" class="section">
     <p class="section-label">Featured Projects</p>
-    <h2>Selected analytics projects</h2>
+
+    <div class="section-heading">
+      <h2>Selected projects that demonstrate my Data Analyst skills</h2>
+      <p>
+        These projects show my ability to work across the analytics workflow:
+        SQL database design, Python-based analysis, machine learning fundamentals,
+        BI dashboarding, and business decision support.
+      </p>
+    </div>
 
     <div class="project-grid">
-      <article class="project-card">
-        <span class="tag">Python • ML • Customer Analytics</span>
-        <h3>Retail Marketing Analytics & Customer Segmentation</h3>
-        <p>
-          Built an end-to-end customer analytics pipeline to segment customers,
-          predict spending behavior, and improve campaign targeting.
-        </p>
 
-        <ul>
-          <li>Data cleaning and feature engineering</li>
-          <li>EDA and customer segmentation</li>
-          <li>Regression, classification, and model evaluation</li>
-        </ul>
-
-        <a href="https://github.com/nguyenanhngan0803-stack/Retail-Marketing-Analytics-Customer-Segmentation" target="_blank">
-          View GitHub →
-        </a>
-      </article>
-
+      <!-- PROJECT 1 -->
       <article class="project-card highlight">
+        <div class="project-visual">
+          <img src="assets/hr-erd.png" alt="HR Payroll database ERD diagram">
+        </div>
+
         <span class="tag">SQL Server • T-SQL • Power BI</span>
         <h3>Human Resources & Payroll Database Management System</h3>
+
         <p>
-          Designed a relational SQL database system for HR and payroll operations
-          with procedures, functions, triggers, views, transactions, and reporting-ready data.
+          Designed a relational SQL database system for HR and payroll operations,
+          including stored procedures, functions, triggers, views, transactions,
+          indexes, and reporting-ready data structures.
         </p>
 
+        <div class="project-skills">
+          <span>SQL</span>
+          <span>Database Design</span>
+          <span>Procedures</span>
+          <span>Triggers</span>
+          <span>Power BI</span>
+        </div>
+
         <ul>
-          <li>Relational database design</li>
-          <li>Stored procedures, functions, triggers</li>
-          <li>Views, indexes, transactions, Power BI reporting</li>
+          <li>Built structured SQL scripts for HR and payroll data management.</li>
+          <li>Used procedures, functions, triggers, and transactions to support business rules.</li>
+          <li>Created views and reporting layers for Power BI analysis.</li>
         </ul>
 
         <a href="https://github.com/nguyenanhngan0803-stack/Human-Resources-Payroll-Database-Management-System" target="_blank">
-          View GitHub →
+          View GitHub Repository →
         </a>
       </article>
 
+      <!-- PROJECT 2 -->
       <article class="project-card">
-        <span class="tag">Excel • Solver • Power BI</span>
+        <div class="project-visual">
+          <img src="assets/retail-segmentation.png" alt="Customer segmentation chart">
+        </div>
+
+        <span class="tag">Python • Pandas • Scikit-learn</span>
+        <h3>Retail Marketing Analytics & Customer Segmentation</h3>
+
+        <p>
+          Built an end-to-end customer analytics pipeline to clean customer data,
+          analyze behavior, segment customers, predict spending, and support
+          campaign targeting decisions.
+        </p>
+
+        <div class="project-skills">
+          <span>Python</span>
+          <span>EDA</span>
+          <span>Clustering</span>
+          <span>Regression</span>
+          <span>Classification</span>
+        </div>
+
+        <ul>
+          <li>Performed data cleaning, feature engineering, and exploratory analysis.</li>
+          <li>Used clustering to identify behavior-based customer segments.</li>
+          <li>Applied regression and classification models to support marketing decisions.</li>
+        </ul>
+
+        <a href="https://github.com/nguyenanhngan0803-stack/Retail-Marketing-Analytics-Customer-Segmentation" target="_blank">
+          View GitHub Repository →
+        </a>
+      </article>
+
+      <!-- PROJECT 3 -->
+      <article class="project-card">
+        <div class="project-visual">
+          <img src="assets/dss-dashboard.png" alt="Decision Support System dashboard">
+        </div>
+
+        <span class="tag">Excel • Solver • LINEST • Power BI</span>
         <h3>Decision Support System for Real Estate Marketing</h3>
+
         <p>
           Developed a decision-support model for marketing budget allocation,
           scenario analysis, ROI evaluation, and management recommendations.
         </p>
 
+        <div class="project-skills">
+          <span>Excel</span>
+          <span>Solver</span>
+          <span>LINEST</span>
+          <span>Scenario Analysis</span>
+          <span>Power BI</span>
+        </div>
+
         <ul>
-          <li>Regression with LINEST</li>
-          <li>Solver optimization and Scenario Manager</li>
-          <li>Power BI management dashboard</li>
+          <li>Used LINEST to estimate relationships between budget, discount, and outcomes.</li>
+          <li>Applied Solver to optimize marketing budget allocation under constraints.</li>
+          <li>Built dashboards to communicate channel performance and recommendations.</li>
         </ul>
 
         <a href="https://github.com/nguyenanhngan0803-stack/Decision-Support-System-Real-Estate-Marketing" target="_blank">
-          View GitHub →
+          View GitHub Repository →
         </a>
       </article>
+
     </div>
   </section>
 
-  <!-- GOTYMEX FIT -->
+  <!-- ================= VISUAL EVIDENCE ================= -->
+  <section id="evidence" class="section visual-evidence">
+    <p class="section-label">Visual Evidence</p>
+
+    <div class="section-heading">
+      <h2>Project outputs and analytical evidence</h2>
+      <p>
+        Selected screenshots from my projects, including SQL database design,
+        Python analysis results, machine learning outputs, Excel decision models,
+        and Power BI dashboards.
+      </p>
+    </div>
+
+    <div class="evidence-grid">
+
+      <div class="evidence-card">
+        <div class="evidence-title">
+          <span>01</span>
+          <div>
+            <h3>SQL Database System</h3>
+            <p>
+              Demonstrates SQL Server database design, stored procedures,
+              triggers, views, and Power BI reporting.
+            </p>
+          </div>
+        </div>
+
+        <div class="visual-gallery">
+          <img src="assets/hr-erd.png" alt="HR payroll ERD diagram">
+          <img src="assets/hr-sql-procedure.png" alt="SQL stored procedure">
+          <img src="assets/hr-powerbi-dashboard.png" alt="HR Power BI dashboard">
+        </div>
+      </div>
+
+      <div class="evidence-card">
+        <div class="evidence-title">
+          <span>02</span>
+          <div>
+            <h3>Python Customer Analytics</h3>
+            <p>
+              Demonstrates data cleaning, EDA, customer segmentation,
+              model comparison, classification, and machine learning fundamentals.
+            </p>
+          </div>
+        </div>
+
+        <div class="visual-gallery">
+          <img src="assets/retail-segmentation.png" alt="Customer segmentation chart">
+          <img src="assets/retail-feature-importance.png" alt="Feature importance chart">
+          <img src="assets/retail-model-comparison.png" alt="Model comparison chart">
+        </div>
+
+        <div class="visual-gallery secondary-gallery">
+          <img src="assets/retail-confusion-matrix.png" alt="Confusion matrix">
+          <img src="assets/retail-roc-curve.png" alt="ROC curve">
+        </div>
+      </div>
+
+      <div class="evidence-card">
+        <div class="evidence-title">
+          <span>03</span>
+          <div>
+            <h3>Business Decision Support</h3>
+            <p>
+              Demonstrates Solver optimization, scenario analysis,
+              KPI dashboarding, and business recommendations.
+            </p>
+          </div>
+        </div>
+
+        <div class="visual-gallery">
+          <img src="assets/dss-dashboard.png" alt="DSS Power BI dashboard">
+          <img src="assets/dss-solver.png" alt="Excel Solver result">
+          <img src="assets/dss-scenario.png" alt="Scenario Manager analysis">
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ================= GOTYMEX FIT ================= -->
   <section id="fit" class="section">
     <p class="section-label">GoTymeX Fit</p>
-    <h2>Why I fit the Data Analyst Intern role</h2>
+
+    <div class="section-heading">
+      <h2>How my portfolio matches the Data Analyst Intern role</h2>
+      <p>
+        This section connects the requirements of a Data Analyst Intern role with specific
+        evidence from my projects.
+      </p>
+    </div>
 
     <div class="fit-grid">
-      <div>
+
+      <div class="fit-card">
         <h3>Strong SQL</h3>
-        <p>Built SQL Server database systems with procedures, functions, triggers, views, indexes, and transactions.</p>
+        <p>
+          Built a SQL Server HR & Payroll system using T-SQL scripts, stored procedures,
+          functions, triggers, views, indexes, and transactions.
+        </p>
+        <strong>Evidence: HR & Payroll Database Project</strong>
       </div>
 
-      <div>
+      <div class="fit-card">
         <h3>Python for Data Analysis</h3>
-        <p>Built customer analytics pipelines using Python, Pandas, visualization, and Scikit-learn.</p>
+        <p>
+          Built a customer analytics pipeline using Python, Pandas, NumPy,
+          visualization libraries, and Scikit-learn.
+        </p>
+        <strong>Evidence: Retail Marketing Analytics Project</strong>
       </div>
 
-      <div>
-        <h3>ML Fundamentals</h3>
-        <p>Applied clustering, regression, classification, model evaluation, and feature importance analysis.</p>
+      <div class="fit-card">
+        <h3>Statistics & ML Fundamentals</h3>
+        <p>
+          Applied clustering, regression, classification, feature importance,
+          confusion matrix, ROC curve, and model evaluation.
+        </p>
+        <strong>Evidence: Retail Marketing Analytics Project</strong>
       </div>
 
-      <div>
-        <h3>BI Experience</h3>
-        <p>Created dashboards and reporting outputs using Power BI and Excel.</p>
+      <div class="fit-card">
+        <h3>BI Dashboarding</h3>
+        <p>
+          Created Power BI and Excel-based dashboards to communicate KPIs,
+          channel performance, payroll summaries, and business insights.
+        </p>
+        <strong>Evidence: HR Payroll & DSS Projects</strong>
       </div>
 
-      <div>
+      <div class="fit-card">
         <h3>Critical Thinking</h3>
-        <p>Used scenario analysis and optimization to compare decisions under business constraints.</p>
+        <p>
+          Used scenario analysis, Solver optimization, and business constraints
+          to evaluate decisions before making recommendations.
+        </p>
+        <strong>Evidence: DSS Real Estate Marketing Project</strong>
       </div>
 
-      <div>
+      <div class="fit-card">
         <h3>Fintech Curiosity</h3>
-        <p>Interested in applying analytics to digital banking, product performance, payments, accounts, and risk.</p>
+        <p>
+          My projects build transferable analytics skills for customer behavior,
+          product performance, operational reporting, payments, accounts, and risk.
+        </p>
+        <strong>Evidence: Cross-project analytical foundation</strong>
       </div>
+
     </div>
   </section>
 
-  <!-- CONTACT -->
+  <!-- ================= RESUME ================= -->
+  <section class="section resume-section">
+    <div class="resume-card">
+      <p class="section-label">Resume</p>
+      <h2>Available for Data Analyst Intern opportunities</h2>
+      <p>
+        Download my resume to learn more about my education, technical skills,
+        and project experience.
+      </p>
+
+      <a href="assets/NguyenThiAnhNgan_DataAnalystIntern_CV.pdf" class="btn primary" target="_blank">
+        Download Resume
+      </a>
+    </div>
+  </section>
+
+  <!-- ================= CONTACT ================= -->
   <section id="contact" class="section contact">
     <p class="section-label">Contact</p>
-    <h2>Let’s connect</h2>
 
-    <p>
-      I am open to Data Analyst Intern opportunities where I can contribute,
-      learn from mentors, and grow in a data-driven product environment.
-    </p>
+    <div class="section-heading">
+      <h2>Let’s connect</h2>
+      <p>
+        I am open to Data Analyst Intern opportunities where I can contribute,
+        learn from mentors, and grow in a data-driven product environment.
+      </p>
+    </div>
 
     <div class="contact-links">
       <a href="https://github.com/nguyenanhngan0803-stack" target="_blank">GitHub</a>
@@ -237,6 +497,7 @@
     </div>
   </section>
 
+  <!-- ================= FOOTER ================= -->
   <footer>
     <p>© 2026 Nguyễn Thị Ánh Ngân. Data Analyst Intern Portfolio.</p>
   </footer>
